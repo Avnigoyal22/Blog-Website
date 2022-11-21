@@ -1,0 +1,35 @@
+@font-face {
+	font-family: raleway;
+	src: url(./fonts/raleway/Raleway-VariableFont_wght.ttf);
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+* {
+	font-family: raleway;
+	/* border: 1px solid red; */
+}
+
+header {
+	top: 0px;
+}
+
+#Header hr {
+	height: 1.5px;
+}
+
+.sec1 {
+	background-image: url("./media/hero/s1.jpg");
+	background-size: 100% 100%;
+}
+
+.sec2,
+.sec3 {
+	background-image: url("./media/hero/s2.jpg");
+}
